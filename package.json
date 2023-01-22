@@ -1,0 +1,43 @@
+{
+  "name": "recipe-book",
+  "version": "1.0.0",
+  "description": "Recipe book",
+  "main": "index.ts",
+  "repository": "https://github.com/btiwaree/recipe-book.git",
+  "author": "Bishesh Tiwaree <bisheshtiwaree@live.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "next": "^13.1.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@storybook/addon-actions": "^6.5.15",
+    "@storybook/addon-essentials": "^6.5.15",
+    "@storybook/addon-interactions": "^6.5.15",
+    "@storybook/addon-links": "^6.5.15",
+    "@storybook/builder-webpack5": "^6.5.15",
+    "@storybook/manager-webpack5": "^6.5.15",
+    "@storybook/react": "^6.5.15",
+    "@storybook/testing-library": "^0.0.13",
+    "@trivago/prettier-plugin-sort-imports": "^4.0.0",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.27",
+    "@types/styled-components": "^5.1.26",
+    "babel-loader": "^8.3.0",
+    "babel-plugin-styled-components": "^2.0.7",
+    "prettier": "2.8.3",
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
